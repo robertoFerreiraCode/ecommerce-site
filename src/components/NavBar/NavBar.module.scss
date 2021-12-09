@@ -1,0 +1,18 @@
+@import "./../../partials/palette";
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $main-background-dark;
+    width: 100vw;
+
+    &__title {
+        color: $main-contrast;
+        margin-left: 50px;
+    }
+    &__cart_btn {
+        color: $main-contrast;
+        margin: 30px;
+        margin-right: 50px;
+    }
+}

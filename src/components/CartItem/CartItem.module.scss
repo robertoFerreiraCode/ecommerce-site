@@ -1,0 +1,16 @@
+@import "./../../partials/palette";
+
+.CartItem {
+    margin: 0px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25vw;
+    border: 2px solid $main-background-dark;
+    background-color: white;
+    &__img {
+        height: 100px;
+        max-width: 75px;
+    }
+}

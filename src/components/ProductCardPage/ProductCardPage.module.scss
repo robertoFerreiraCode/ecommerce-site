@@ -1,0 +1,31 @@
+@import "./../../partials/palette";
+.ProductCardPage {
+    display: flex;
+    justify-content: center;
+    background-color: $main-background;
+    height: 100vh;
+    &__img {
+        height: 500px;
+    }
+}
+
+.img_div {
+    margin: 100px;
+}
+
+.info_div {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    &__price {
+        color: $main-contrast;
+        margin: 0px;
+    }
+
+    &__btn {
+        background-color: $main-background-dark;
+        color: $main-contrast;
+        border-radius: 5px;
+    }
+}

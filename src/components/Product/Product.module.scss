@@ -1,0 +1,33 @@
+@import "./../../partials/palette";
+.Product {
+    display: flex;
+    // justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    color: $main-background-dark;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    &__info_container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__img {
+        height: 300px;
+        width: 250px;
+    }
+
+    &__name {
+        margin: 0px;
+    }
+
+    &__fav {
+        color: $main-contrast;
+    }
+
+    &__price {
+        color: $main-contrast;
+        margin: 5px;
+    }
+}

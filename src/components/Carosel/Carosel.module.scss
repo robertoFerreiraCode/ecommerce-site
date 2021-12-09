@@ -1,0 +1,32 @@
+@import "./../../partials/palette";
+.Carosel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    &__title {
+        color: $main-background-dark;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+    &__img {
+        height: 300px;
+    }
+
+    &__arrow {
+        position: absolute;
+        top: 50%;
+        font-size: 20px;
+        color: $main-contrast;
+        z-index: 10;
+        cursor: pointer;
+
+        &_left {
+            left: 20px;
+        }
+        &_right {
+            right: 20px;
+        }
+    }
+}

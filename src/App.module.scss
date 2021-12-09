@@ -1,0 +1,13 @@
+@import "./partials/palette";
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700");
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    width: 100vw;
+    background-color: $main-background;
+    font-family: "Crimson Text", serif;
+}
