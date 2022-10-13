@@ -1,4 +1,7 @@
 https://robswares-ecommerce-site.netlify.app
+
+Shopping website displaying items, allowing users to add items to their cart. Built using React, Firebase, HTML and SCSS.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
